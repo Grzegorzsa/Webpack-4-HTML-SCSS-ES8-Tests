@@ -17,3 +17,5 @@ npm install
 `npm run build` - production build
 
 `npm test` - code testing
+
+`npm run test:single` - run test just once

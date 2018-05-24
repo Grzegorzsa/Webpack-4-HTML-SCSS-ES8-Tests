@@ -40,6 +40,7 @@
   },
   "scripts": {
     "test": "karma start --reporters clear-screen,dots,coverage",
+    "test:single": "karma start --reporters clear-screen,dots,coverage --single-run",
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production"
   },
