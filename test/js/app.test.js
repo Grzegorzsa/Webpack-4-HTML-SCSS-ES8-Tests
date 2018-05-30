@@ -6,6 +6,16 @@ describe('app.js', function () {
 
   describe('sayHello()', function () {
 
+    var sandbox;
+
+    beforeEach(function () {
+      sandbox = sinon.createSandbox();
+    });
+
+    afterEach(function () {
+      sandbox.restore();
+    });
+
     it('should return Hello from John', function () {
       const result = sayHello('John');
       expect(result).to.eq('Hello from John');
@@ -15,5 +25,6 @@ describe('app.js', function () {
       const result = sayHello('Mike');
       expect(result).to.eq('Hello from Mike');
     });
+
   })
 })
