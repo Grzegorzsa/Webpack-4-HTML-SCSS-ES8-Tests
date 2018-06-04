@@ -2,7 +2,7 @@
 
 **Frontend starter:** HTML + SCSS + ES8
 
-**Testing + quality tools:** Mocha, Chai, Istanbul, Karma, Sinon, ESLint, Stylelint
+**Testing + quality tools:** Mocha, Chai, Karma, Sinon, ESLint, Stylelint
 
 ## Installation
 
